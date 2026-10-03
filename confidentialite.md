@@ -75,13 +75,14 @@ Ces accès ne sont utilisés que si tu les autorises dans les réglages de ton t
 
 - **Position** : lue uniquement pendant une sortie de course ou de marche que tu lances, quand l'application est ouverte, pour calculer la distance, la vitesse et les calories sur ton téléphone. **Aucune position ni aucun tracé n'est enregistré ou envoyé** : seuls les totaux de la sortie sont conservés.
 - **Appareil photo (scan de code-barres)** : sert uniquement à lire le numéro d'un code-barres. **Aucune image n'est enregistrée ni envoyée.**
+- **Mouvements et forme (compteur de pas)** : sert uniquement à afficher tes pas du jour et des 7 derniers jours dans l'onglet Course. Les pas sont comptés par ton téléphone et lus par l'application à chaque affichage : **ils ne sont jamais enregistrés par Obsyd ni envoyés**.
 - **Appareil photo et photothèque (photos de progression)** : les photos que tu prends ou choisis sont copiées dans le dossier privé de l'application **sur ton téléphone uniquement**. Elles ne sont jamais envoyées à Obsyd ni à personne, et sont perdues si tu supprimes l'application ou changes de téléphone.
 
 ## 5. Données gardées uniquement sur ton téléphone
 
 Ces éléments ne quittent jamais ton téléphone, sauf si tu choisis toi-même de les partager :
 - les photos de progression (voir ci-dessus) ;
-- les réglages du calculateur de disques ;
+- les réglages du calculateur de disques et ton objectif de pas ;
 - l'image du récap, créée au moment où tu la partages et envoyée uniquement là où tu choisis (ton pseudo, ton avatar et l'évolution de ton poids n'y figurent que si tu actives les options correspondantes) ;
 - la session qui garde ta connexion ouverte.
 
@@ -109,7 +110,7 @@ Tes données ne sont **jamais vendues**, ni utilisées à des fins publicitaires
 - **Les membres de tes clubs** : ton score au classement et ta progression dans les défis, sous forme de totaux.
 - **L'éditeur** : les signalements, uniquement pour la modération ; les journaux techniques, uniquement en cas de problème technique ou de sécurité ; les emails que tu lui envoies.
 
-Tes sorties de course et de marche, ton eau, tes mensurations, tes photos, ton RPE et tes notes de séance ne sont **jamais partagés**.
+Tes sorties de course et de marche, tes pas, ton eau, tes mensurations, tes photos, ton RPE et tes notes de séance ne sont **jamais partagés**.
 
 ## 8. Hébergement, sous-traitants et services tiers
 
