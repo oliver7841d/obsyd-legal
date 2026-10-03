@@ -7,7 +7,7 @@ Bienvenue sur Obsyd, une application de suivi de musculation et de nutrition ave
 ## 1. Éditeur
 
 Obsyd est éditée par [PRÉNOM NOM], [particulier / entrepreneur individuel — SIRET : À COMPLÉTER].
-Contact : [EMAIL DE CONTACT]
+Contact : [contact@obsyd.eu](mailto:contact@obsyd.eu)
 
 Les données sont hébergées par Supabase Inc. sur des serveurs situés en Irlande (Union européenne).
 
@@ -76,4 +76,4 @@ Les CGU peuvent évoluer, notamment lors de l'ajout de nouvelles fonctionnalité
 
 ## 12. Droit applicable
 
-Les présentes CGU sont soumises au droit français. En cas de litige, une solution amiable sera recherchée en priorité en écrivant à [EMAIL DE CONTACT]. À défaut, les tribunaux français seront compétents.
+Les présentes CGU sont soumises au droit français. En cas de litige, une solution amiable sera recherchée en priorité en écrivant à [contact@obsyd.eu](mailto:contact@obsyd.eu). À défaut, les tribunaux français seront compétents.
