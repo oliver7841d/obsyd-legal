@@ -33,4 +33,3 @@ Obsyd ne remplace pas un avis médical. Les calculs sont donnés à titre indica
 ## Documents
 - [Conditions d'utilisation](cgu.html)
 - [Politique de confidentialité](confidentialite.html)
-
