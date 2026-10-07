@@ -94,6 +94,8 @@ L'abonnement (mensuel ou annuel, avec essai gratuit) s'achète uniquement dans l
   - l'identifiant technique de ton compte Obsyd (pas ton email) ; avant ta connexion, un identifiant anonyme ;
   - l'historique de tes achats transmis par Apple : formule choisie, dates d'achat, de renouvellement, d'essai et de fin, prix et devise, pays de l'App Store, annulation ou remboursement, identifiants de transaction ;
   - des informations techniques : modèle et version du téléphone, version de l'application, langue, adresse IP.
+  
+  Ces données sont hébergées aux **États-Unis** (voir section 9).
 - **Statut dans ton profil** : la date de fin de ton abonnement est enregistrée dans ton profil, mise à jour automatiquement par nos serveurs, pour vérifier ton accès Premium. L'application garde aussi sur ton téléphone une copie temporaire de ce statut.
 
 Ces données servent uniquement à gérer ton abonnement (accès Premium, « Restaurer mes achats ») et à suivre globalement les abonnements de l'application (nombre d'abonnés, revenus). Elles ne sont jamais utilisées pour de la publicité ni partagées avec d'autres utilisateurs.
@@ -145,9 +147,9 @@ Tes sorties de course et de marche, tes pas, ton eau, tes mensurations, tes phot
 - **Open Food Facts** (base alimentaire ouverte et collaborative) : quand tu scannes ou saisis un code-barres, seul le **numéro du code-barres** lui est envoyé pour retrouver le produit. Aucune donnée de compte, de profil ou de santé ne lui est transmise.
 - **GitHub Pages** : hébergement des pages légales et de la page de confirmation d'adresse sur obsyd.eu. Comme tout site web, il reçoit les informations techniques de ta visite (adresse IP, navigateur) quand tu ouvres une de ces pages. Aucune donnée de compte ne lui est envoyée.
 - **Apple** (App Store) : paiement et renouvellement de l'abonnement Premium, avec ton compte Apple, selon la politique de confidentialité d'Apple (voir section 5).
-- **RevenueCat, Inc.** (États-Unis) : gestion des abonnements, en tant que sous-traitant. Il reçoit uniquement l'identifiant technique de ton compte, l'historique de tes achats transmis par Apple et des informations techniques (voir section 5).
+- **RevenueCat, Inc.** (États-Unis) : gestion des abonnements, en tant que sous-traitant, encadré par un contrat de traitement des données. Il reçoit uniquement l'identifiant technique de ton compte, l'historique de tes achats transmis par Apple et des informations techniques (voir section 5). Ses serveurs et ses propres sous-traitants techniques (hébergement, stockage, surveillance des erreurs) sont situés **aux États-Unis** : ces données y sont donc transférées. Ce transfert est encadré par les **clauses contractuelles types de la Commission européenne**, intégrées à son contrat de traitement des données. Aucune donnée de santé ni ton adresse email ne lui sont transmises.
 
-Certains de ces prestataires sont des sociétés établies hors de l'Union européenne. Si un transfert de données hors de l'Union européenne a lieu, il est encadré par les garanties prévues par le RGPD (clauses contractuelles types de la Commission européenne ou décision d'adéquation).
+Certains de ces prestataires sont des sociétés établies hors de l'Union européenne. Quand des données sont transférées hors de l'Union européenne (c'est le cas des données d'abonnement envoyées à RevenueCat), ce transfert est encadré par les garanties prévues par le RGPD : clauses contractuelles types de la Commission européenne ou décision d'adéquation. Tu peux obtenir une copie de ces garanties en écrivant à [contact@obsyd.eu](mailto:contact@obsyd.eu).
 
 Les rappels d'entraînement, le bilan du lundi et la fin de repos sont des notifications programmées directement sur ton téléphone : aucun serveur de notification externe n'est utilisé.
 
