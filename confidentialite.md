@@ -36,6 +36,7 @@ Toutes les informations de profil sont **facultatives**. Tu peux les modifier ou
 - Calories et macronutriments consommés (repas cochés, aliments ajoutés à la main ou scannés).
 - Quantités d'eau bues (si tu actives le suivi de l'eau).
 - Programmes, plans alimentaires et planning que tu crées.
+- Exercices personnels que tu crées : nom, groupe musculaire, type d'exercice et description facultative.
 - Semaines protégées par le joker de régularité.
 
 **Rang et succès**
@@ -46,7 +47,8 @@ Toutes les informations de profil sont **facultatives**. Tu peux les modifier ou
 - Liste d'amis et demandes d'amis.
 - Activités générées automatiquement : records battus, séances terminées, défis réussis, rangs atteints.
 - Réactions (🔥 💪) que tu envoies.
-- Clubs créés ou rejoints, défis lancés et participations.
+- Clubs créés ou rejoints, défis lancés (individuels ou collectifs) et participations.
+- Ta contribution à l'XP de tes clubs : l'XP que tu fais gagner à un club en réussissant des défis, et une petite part de l'XP que tu gagnes chaque semaine depuis ton arrivée dans le club.
 
 **Modération**
 - Utilisateurs que tu as bloqués.
@@ -65,12 +67,12 @@ Toutes les informations de profil sont **facultatives**. Tu peux les modifier ou
 
 Ton poids, tes mensurations, ton alimentation, ton eau, tes infos physiques, ton entraînement et ton ressenti de séance peuvent être considérés comme des **données de santé**. Elles sont :
 - traitées uniquement pour te fournir le service (suivi de ta progression, calculs et conseils dans l'application) ;
-- **strictement privées** : personne d'autre que toi ne voit tes pesées, tes mensurations, ton alimentation, ton eau, tes notes ni le détail de tes séries ;
+- **strictement privées** : personne d'autre que toi ne voit tes pesées, tes mensurations, ton alimentation, ton eau, tes notes ni le détail de tes séries et de tes sorties ;
 - traitées sur la base de ton **consentement explicite**, donné à l'inscription. Tu peux le retirer à tout moment en supprimant ces données ou ton compte.
 
-Obsyd ne te demande aucune donnée médicale (maladie, blessure, traitement). Seule la note de séance, facultative et libre, peut en contenir si tu choisis d'en écrire.
+Obsyd ne te demande aucune donnée médicale (maladie, blessure, traitement). Seules la note de séance et la description de tes exercices personnels, facultatives et libres, peuvent en contenir si tu choisis d'en écrire.
 
-Pour les classements et défis des clubs dont tu es membre, seuls des **totaux** sont partagés (nombre de séances terminées, de séries, volume soulevé sur la période), jamais le détail de tes séries ni ton poids.
+Pour les classements et défis des clubs dont tu es membre, seuls des **totaux sur la période** sont partagés : nombre de séances terminées, de séries et volume soulevé ; pour les défis auxquels tu participes, aussi les kilomètres parcourus, le nombre et la durée totale de tes sorties, tes jours actifs et l'XP gagnée pendant le défi. Jamais le détail de tes séries, ton poids, ni le parcours, la position, l'allure ou l'horaire de tes sorties.
 
 Aucune donnée de santé n'est transmise à Apple ni à RevenueCat.
 
@@ -78,7 +80,11 @@ Aucune donnée de santé n'est transmise à Apple ni à RevenueCat.
 
 Ces accès ne sont utilisés que si tu les autorises dans les réglages de ton téléphone, et seulement pour la fonctionnalité concernée.
 
-- **Position** : lue uniquement pendant une sortie de course ou de marche que tu lances, quand l'application est ouverte, pour calculer la distance, la vitesse et les calories sur ton téléphone. **Aucune position ni aucun tracé n'est enregistré ou envoyé** : seuls les totaux de la sortie sont conservés.
+- **Position** : lue uniquement pendant une sortie de course ou de marche que tu lances, pour calculer la distance, la vitesse et les calories sur ton téléphone.
+  - Si tu autorises l'accès **« Toujours »**, le suivi continue pendant ta sortie même si ton téléphone est verrouillé ou si tu utilises une autre application (de la musique par exemple). Ton iPhone l'indique par une pastille bleue de localisation en haut de l'écran.
+  - Avec l'accès **« Lorsque l'app est active »**, la position n'est lue que lorsque l'application est ouverte à l'écran.
+  - Dans tous les cas, la position n'est plus lue dès que tu mets la sortie en pause, la termines ou l'abandonnes : jamais en dehors d'une sortie en cours.
+  - **Aucune position ni aucun tracé n'est enregistré ou envoyé** : seuls les totaux de la sortie (durée, distance, calories) sont conservés.
 - **Appareil photo (scan de code-barres)** : sert uniquement à lire le numéro d'un code-barres. **Aucune image n'est enregistrée ni envoyée.**
 - **Mouvements et forme (compteur de pas)** : sert uniquement à afficher tes pas du jour et des 7 derniers jours dans l'onglet Course. Les pas sont comptés par ton téléphone et lus par l'application à chaque affichage : **ils ne sont jamais enregistrés par Obsyd ni envoyés**.
 - **Appareil photo et photothèque (photos de progression)** : les photos que tu prends ou choisis sont copiées dans le dossier privé de l'application **sur ton téléphone uniquement**. Elles ne sont jamais envoyées à Obsyd ni à personne, et sont perdues si tu supprimes l'application ou changes de téléphone.
@@ -108,6 +114,7 @@ Ces éléments ne quittent jamais ton téléphone, sauf si tu choisis toi-même 
 - les photos de progression (voir ci-dessus) ;
 - les réglages du calculateur de disques et ton objectif de pas ;
 - l'image du récap, créée au moment où tu la partages et envoyée uniquement là où tu choisis (ton pseudo, ton avatar et l'évolution de ton poids n'y figurent que si tu actives les options correspondantes) ;
+- quelques repères d'affichage (par exemple, le fait que l'explication sur l'accès à la position t'a déjà été montrée, ou le dernier rang vu de tes clubs) ;
 - la session qui garde ta connexion ouverte ;
 - la copie temporaire de ton statut d'abonnement (voir section 5).
 
@@ -116,47 +123,47 @@ Ces éléments ne quittent jamais ton téléphone, sauf si tu choisis toi-même 
 | Utilisation | Base légale |
 |---|---|
 | Créer et gérer ton compte, confirmer ton adresse email, réinitialiser ton mot de passe | Exécution du service (contrat) |
-| Suivre tes séances, ta course, ta nutrition et ta progression ; calculer tes statistiques, ton rang et tes badges | Exécution du service (contrat) |
+| Suivre tes séances, ta course, ta nutrition et ta progression ; calculer tes statistiques, ton rang et tes badges ; enregistrer tes exercices personnels | Exécution du service (contrat) |
 | Données de santé (poids, mensurations, alimentation, eau, infos physiques, entraînement, ressenti) | Consentement explicite |
 | Adapter les programmes, plans et calculs proposés (besoins caloriques, programme sur mesure, coach calories) | Consentement explicite (données de santé) et exécution du service |
-| Fonctionnalités sociales : amis, fil d'actualité, clubs, classements, défis, profil public | Exécution du service (contrat) |
+| Fonctionnalités sociales : amis, fil d'actualité, clubs, classements, défis individuels et collectifs, rangs de club, profil public | Exécution du service (contrat) |
 | Gérer ton abonnement Premium : vérifier ton accès, restaurer tes achats | Exécution du service (contrat) |
 | Suivre globalement les abonnements (nombre d'abonnés, revenus) et tenir la comptabilité de l'activité | Intérêt légitime (gestion de l'activité) et obligations légales |
 | Modération : filtre de mots interdits, signalements, blocages | Intérêt légitime (sécurité des utilisateurs) et obligations légales |
 | Répondre à tes messages envoyés à contact@obsyd.eu | Intérêt légitime (répondre à ta demande) et obligations légales (exercice de tes droits) |
 | Journaux techniques de connexion | Intérêt légitime (sécurité et bon fonctionnement du service) |
-| Rappels d'entraînement et bilan du lundi | Ton choix d'activer les rappels (notifications locales, programmées sur ton téléphone) |
+| Rappels d'entraînement, bilan du lundi et récap du mois | Ton choix d'activer les rappels (notifications locales, programmées sur ton téléphone) |
 
 Tes données ne sont **jamais vendues**, ni utilisées à des fins publicitaires, ni partagées avec des tiers à des fins commerciales. Obsyd n'utilise **aucun outil de publicité, de suivi ou de mesure d'audience** (RevenueCat sert uniquement à gérer les abonnements).
 
 ## 8. Qui peut voir tes données
 
-- **Toi uniquement** : email, profil, pesées, mensurations, séries, notes de séance, sorties, calories, eau, programmes, plans alimentaires, planning, détail de ton XP, blocages, statut d'abonnement.
+- **Toi uniquement** : email, profil, pesées, mensurations, séries, notes de séance, sorties, calories, eau, programmes, plans alimentaires, planning, exercices personnels, détail de ton XP, blocages, statut d'abonnement.
 - **Tous les utilisateurs connectés** : ton pseudo et ton apparence publique (avatar, couleur, style de pastille, badge en vitrine), sauf les personnes que tu as bloquées ou qui t'ont bloqué.
 - **Tes amis et les membres de tes clubs** : tes activités (records, séances terminées, défis réussis, rangs atteints) et les réactions associées ; ton numéro de rang (sauf si tu le masques dans Paramètres) ; ton profil public, qui montre en plus tes badges Or et Légendaires. Les badges liés au poids ou à l'hydratation n'y apparaissent jamais.
-- **Les membres de tes clubs** : ton score au classement et ta progression dans les défis, sous forme de totaux.
+- **Les membres de tes clubs** : ton score au classement et ta progression dans les défis, sous forme de totaux ; dans un défi collectif, ton apport au total commun (par exemple « 12 km »). L'XP de tes clubs et leur rang sont affichés sous forme de totaux : ton apport personnel à l'XP d'un club n'est affiché qu'à toi.
 - **L'éditeur** : les signalements, uniquement pour la modération ; les journaux techniques, uniquement en cas de problème technique ou de sécurité ; les emails que tu lui envoies ; l'historique d'abonnement dans le tableau de bord RevenueCat, uniquement pour gérer les abonnements et répondre à tes demandes.
 
-Tes sorties de course et de marche, tes pas, ton eau, tes mensurations, tes photos, ton RPE, tes notes de séance et ton statut d'abonnement ne sont **jamais partagés** avec les autres utilisateurs.
+Le détail de tes sorties de course et de marche (parcours, position, allure, horaires), tes pas, ton eau, tes mensurations, tes photos, ton RPE, tes notes de séance et ton statut d'abonnement ne sont **jamais partagés** avec les autres utilisateurs. Tes sorties ne comptent que sous forme de totaux dans les défis de club auxquels tu choisis de participer.
 
 ## 9. Hébergement, sous-traitants et services tiers
 
 - **Supabase Inc.** : hébergement de la base de données et de l'authentification, sur des serveurs situés en **Irlande (Union européenne)**. Supabase agit en tant que sous-traitant, encadré par un contrat de traitement des données.
 - **Resend** : envoi des emails liés à ton compte (confirmation d'adresse, changement d'adresse, mot de passe oublié). Il reçoit uniquement ton adresse email et le contenu de ces emails, envoyés depuis noreply@obsyd.eu.
 - **OVHcloud** (France) : hébergement du nom de domaine obsyd.eu et de la boîte mail contact@obsyd.eu.
-- **Open Food Facts** (base alimentaire ouverte et collaborative) : quand tu scannes ou saisis un code-barres, seul le **numéro du code-barres** lui est envoyé pour retrouver le produit. Aucune donnée de compte, de profil ou de santé ne lui est transmise.
+- **Open Food Facts** (base alimentaire ouverte et collaborative, sous licence ODbL) : quand tu scannes ou saisis un code-barres, seul le **numéro du code-barres** lui est envoyé pour retrouver le produit. Aucune donnée de compte, de profil ou de santé ne lui est transmise.
 - **GitHub Pages** : hébergement des pages légales et de la page de confirmation d'adresse sur obsyd.eu. Comme tout site web, il reçoit les informations techniques de ta visite (adresse IP, navigateur) quand tu ouvres une de ces pages. Aucune donnée de compte ne lui est envoyée.
 - **Apple** (App Store) : paiement et renouvellement de l'abonnement Premium, avec ton compte Apple, selon la politique de confidentialité d'Apple (voir section 5).
 - **RevenueCat, Inc.** (États-Unis) : gestion des abonnements, en tant que sous-traitant, encadré par un contrat de traitement des données. Il reçoit uniquement l'identifiant technique de ton compte, l'historique de tes achats transmis par Apple et des informations techniques (voir section 5). Ses serveurs et ses propres sous-traitants techniques (hébergement, stockage, surveillance des erreurs) sont situés **aux États-Unis** : ces données y sont donc transférées. Ce transfert est encadré par les **clauses contractuelles types de la Commission européenne**, intégrées à son contrat de traitement des données. Aucune donnée de santé ni ton adresse email ne lui sont transmises.
 
 Certains de ces prestataires sont des sociétés établies hors de l'Union européenne. Quand des données sont transférées hors de l'Union européenne (c'est le cas des données d'abonnement envoyées à RevenueCat), ce transfert est encadré par les garanties prévues par le RGPD : clauses contractuelles types de la Commission européenne ou décision d'adéquation. Tu peux obtenir une copie de ces garanties en écrivant à [contact@obsyd.eu](mailto:contact@obsyd.eu).
 
-Les rappels d'entraînement, le bilan du lundi et la fin de repos sont des notifications programmées directement sur ton téléphone : aucun serveur de notification externe n'est utilisé.
+Les rappels d'entraînement, le bilan du lundi, le récap du mois et la fin de repos sont des notifications programmées directement sur ton téléphone : aucun serveur de notification externe n'est utilisé.
 
 ## 10. Durée de conservation
 
 - Tes données sont conservées tant que ton compte existe.
-- Quand tu supprimes ton compte (Profil › Paramètres › Supprimer mon compte), **toutes tes données sont effacées immédiatement et définitivement**, y compris les blocages et signalements te concernant et les clubs que tu as créés. Seuls les défis que tu as lancés dans un club restent visibles pour ses membres, sans aucun lien avec toi.
+- Quand tu supprimes ton compte (Profil › Paramètres › Supprimer mon compte), **toutes tes données sont effacées immédiatement et définitivement**, y compris tes exercices personnels, les blocages et signalements te concernant et les clubs que tu as créés. Seuls restent, **sans aucun lien avec toi** : les défis que tu as lancés dans un club, et l'XP que tu as fait gagner aux clubs des autres (pour que leur rang ne baisse pas), rendue anonyme.
 - **Supprimer ton compte n'annule pas ton abonnement Apple** : pense à l'annuler dans les réglages de l'App Store (Réglages › ton nom › Abonnements), sinon il continue d'être facturé par Apple. Après la suppression de ton compte, les données détenues par RevenueCat ne sont plus liées à aucun compte Obsyd ; elles sont supprimées sur simple demande à contact@obsyd.eu. L'historique de tes achats reste chez Apple, avec ton compte Apple.
 - Les emails envoyés à contact@obsyd.eu sont conservés le temps de traiter ta demande, puis au maximum 3 ans après ton dernier message. Tu peux demander leur suppression à tout moment.
 - Les journaux techniques et les copies de sauvegarde éventuelles des prestataires sont effacés selon leur propre cycle de rotation.
@@ -167,7 +174,7 @@ Les rappels d'entraînement, le bilan du lundi et la fin de repos sont des notif
 - Connexion chiffrée (HTTPS) entre l'application et les serveurs.
 - Mot de passe chiffré.
 - Confirmation de l'adresse email obligatoire avant la première utilisation.
-- Règles de sécurité au niveau de la base de données : chaque utilisateur n'accède qu'aux données auxquelles il a droit, et les informations des autres utilisateurs (classements, défis, profil public) ne sont fournies que sous forme de totaux ou d'éléments choisis.
+- Règles de sécurité au niveau de la base de données : chaque utilisateur n'accède qu'aux données auxquelles il a droit, et les informations des autres utilisateurs (classements, défis, rangs de club, profil public) ne sont fournies que sous forme de totaux ou d'éléments choisis.
 - Ton statut d'abonnement ne peut pas être modifié par l'application elle-même : seuls nos serveurs le mettent à jour, d'après les informations d'Apple.
 
 ## 12. Mineurs
