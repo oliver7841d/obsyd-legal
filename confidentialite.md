@@ -120,7 +120,8 @@ Ces données servent uniquement à gérer ton abonnement (accès Premium, « Res
 
 Tu gères ou annules ton abonnement dans les réglages de l'App Store (Réglages › ton nom › Abonnements), ou depuis la page Premium de l'application.
 
-6. Données gardées uniquement sur ton téléphone
+## 6. Données gardées uniquement sur ton téléphone
+
 Ces éléments ne quittent jamais ton téléphone, sauf si tu choisis toi-même de les partager :
 
 * les photos de progression (voir ci-dessus) ;
