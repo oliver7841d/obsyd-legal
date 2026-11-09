@@ -120,16 +120,16 @@ Ces données servent uniquement à gérer ton abonnement (accès Premium, « Res
 
 Tu gères ou annules ton abonnement dans les réglages de l'App Store (Réglages › ton nom › Abonnements), ou depuis la page Premium de l'application.
 
-## 6. Données gardées uniquement sur ton téléphone
-
+6. Données gardées uniquement sur ton téléphone
 Ces éléments ne quittent jamais ton téléphone, sauf si tu choisis toi-même de les partager :
 
-- les photos de progression (voir ci-dessus) ;
-- les réglages du calculateur de disques et ton objectif de pas ;
-- l'image du récap, créée au moment où tu la partages et envoyée uniquement là où tu choisis (ton pseudo, ton avatar et l'évolution de ton poids n'y figurent que si tu actives les options correspondantes) ;
-- quelques repères d'affichage (par exemple, le fait que l'explication sur l'accès à la position t'a déjà été montrée, ou le dernier rang vu de tes clubs) ;
-- la session qui garde ta connexion ouverte ;
-- la copie temporaire de ton statut d'abonnement (voir section 5).
+* les photos de progression (voir ci-dessus) ;
+* les réglages du calculateur de disques et ton objectif de pas ;
+* l'image du récap, créée au moment où tu la partages et envoyée uniquement là où tu choisis (ton pseudo, ton avatar et l'évolution de ton poids n'y figurent que si tu actives les options correspondantes) ;
+* quelques repères d'affichage (par exemple, le fait que l'explication sur l'accès à la position t'a déjà été montrée, ou le dernier rang vu de tes clubs) ;
+* pendant une sortie de course ou de marche, une copie temporaire de ses totaux (type, heure de départ, durée, distance et calories, sans aucune position), qui permet de retrouver la sortie si l'app est fermée par erreur ; elle est effacée dès que la sortie est terminée ou abandonnée, et oubliée au bout de 12 heures ;
+* la session qui garde ta connexion ouverte ;
+* la copie temporaire de ton statut d'abonnement (voir section 5).
 
 ## 7. Pourquoi ces données sont utilisées
 
